@@ -4,11 +4,9 @@ import com.hacked.kafkapoc.models.ChangeEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Random;
 import java.util.UUID;
 
 @Service
